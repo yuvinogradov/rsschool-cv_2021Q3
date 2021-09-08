@@ -66,5 +66,3 @@ React, Redux, JavaScript, TypeScript.
 **Bachelor of Electronic Engineering (1997 – 2002)**. Moscow State University of Electronic Technology, 
 ## Languages
 English (fluent), Hebrew (intermediate), Russian (native)
-
-
