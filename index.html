@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3b794a8ec8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Yury Vinogradov CV</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="name">
+          <h1>Yury Vinogradov</h1>
+          <h2>Frontend Developer</h2>
+        </div>
+        <img
+          src="images/profile-photo.jpg"
+          alt="Yury Vinogradov photo"
+          class="profile-photo"
+        />
+      </header>
+
+      <main>
+        <div class="main-content">
+          <!-- <section class="main-section">
+            <div class="section-header">
+              <h3>Soft Skills</h3>
+              <i class="fas fa-user head-icon"></i>
+            </div>
+            <ul class="section-list">
+              <li>Purposeful</li>
+              <li>Fast learner</li>
+              <li>Communicative</li>
+              <li>Creative</li>
+            </ul>
+          </section> -->
+
+          <section class="main-section">
+            <div class="section-header">
+              <h3>About</h3>
+              <i class="fas fa-user head-icon"></i>
+            </div>
+            <div>
+              <p>
+                I’m a passionate frontend developer with experience in creating
+                apps with React and Redux.
+              </p>
+              <p>
+                I’m keen on solving katas on
+                <a class="text-link" href="https://codewars.com">Codewars</a>.
+              </p>
+              <p>
+                In the future, I want to learn the backend and try myself as a
+                fullstack developer.
+              </p>
+            </div>
+          </section>
+
+          <section class="main-section">
+            <div class="section-header">
+              <h3>Education</h3>
+              <i class="fas fa-book-open head-icon"></i>
+            </div>
+            <ul class="section-list">
+              <li>
+                <a
+                  class="section-link"
+                  href="https://www.freecodecamp.org/certification/mrks77/responsive-web-design"
+                  ><i class="fas fa-chevron-right link-icon"></i>FreeCodeCamp
+                  Responsive Web Design</a
+                >
+              </li>
+              <li>
+                <a
+                  class="section-link"
+                  href="https://www.freecodecamp.org/certification/mrks77/javascript-algorithms-and-data-structures"
+                  ><i class="fas fa-chevron-right link-icon"></i>FreeCodeCamp
+                  JavaScript Algorithms and Data Structures</a
+                >
+              </li>
+              <li>
+                <a
+                  class="section-link"
+                  href="https://www.freecodecamp.org/learn/front-end-development-libraries/"
+                  ><i class="fas fa-chevron-right link-icon"></i>FreeCodeCamp
+                  Front End Development Libraries</a
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section class="main-section">
+            <div class="section-header">
+              <h3>My skills</h3>
+              <i class="fas fa-cogs head-icon"></i>
+            </div>
+            <div id="skills">
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Material UI</li>
+                <li>Firebase</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="main-section">
+            <div class="section-header">
+              <h3>Code Example</h3>
+              <i class="fas fa-code head-icon"></i>
+            </div>
+            <pre><code>function peak(arr) {
+  for (let i = 1; i &lt; arr.length - 1; i++) {
+    let leftSum = arr.slice(0, i)
+      .reduce((acc, val) => acc + val);
+    let rightSum = arr.slice(i + 1)
+      .reduce((acc, val) => acc + val);
+    if (leftSum === rightSum) return i;
+  }
+  return -1;
+}</code></pre>
+          </section>
+
+          <section class="main-section">
+            <div class="section-header">
+              <h3>Languages</h3>
+              <i class="fas fa-globe head-icon"></i>
+            </div>
+            <div class="lang">
+              <ul>
+                <li>English level: fluent (C2)</li>
+                <li>Hebrew: intermediate</li>
+                <li>Russian: native</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <aside>
+          <section class="main-section">
+            <div class="section-header">
+              <h3>Contacts</h3>
+            </div>
+            <ul class="aside-list contacts-list">
+              <li><i class="fas fa-phone-alt"></i>+972532778526</li>
+              <li><i class="fas fa-envelope"></i>yuvinogradov@gmail.com</li>
+              <li><i class="fas fa-compass"></i>Israel, Nahariya</li>
+            </ul>
+          </section>
+        </aside>
+      </main>
+      <footer>
+        <div class="footer-year">2021</div>
+        <div class="footer-github">
+          <a target="_blank" href="https://github.com/yuvinogradov"
+            ><i class="fab fa-github"></i>My GitHub</a
+          >
+        </div>
+        <div class="footer-rsschool">
+          <a target="_blank" href="https://rs.school/js/"
+            ><img src="/images/rs_school_js.svg" alt="RSSchool link"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
