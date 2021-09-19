@@ -1,14 +1,11 @@
 :root {
   --first-color: rgb(241, 241, 241);
   --second-color: rgb(26, 26, 26);
-  /* --third-color: rgba(149, 163, 190, 0.5); */
   --third-color: rgba(255, 174, 68, 0.5);
-  /* --forth-color: rgba(97, 137, 184, 0.5); */
   --forth-color: rgba(204, 82, 0, 0.5);
   --header-color: rgb(26, 26, 26);
   --link-color: rgba(255, 255, 255, 0.521);
   --link-hover-color: rgb(113, 75, 121);
-  /* --footer-color: rgb(86, 103, 139); */
   --footer-color: rgb(204, 82, 0);
   --main-radius: 5px;
 }
@@ -49,8 +46,6 @@ pre {
 }
 
 code {
-  /* margin-top: 20px;
-  padding-left: 30px; */
   font-family: Consolas, Monaco, Lucida Console, Liberation Mono,
     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
   font-size: 0.7rem;
