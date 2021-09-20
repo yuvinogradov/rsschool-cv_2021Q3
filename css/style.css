@@ -1,5 +1,5 @@
 :root {
-  --first-color: rgb(241, 241, 241);
+  --first-color: rgb(255, 228, 179);
   --second-color: rgb(26, 26, 26);
   --third-color: rgba(255, 174, 68, 0.5);
   --forth-color: rgba(204, 82, 0, 0.5);
@@ -122,6 +122,18 @@ main {
   margin: 5px 0;
 }
 
+h4 {
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+
+h5 {
+  font-size: 0.9em;
+  padding-top: 2px;
+  padding-left: 8px;
+  font-weight: normal;
+}
+
 .head-icon {
   position: relative;
   bottom: 2px;
@@ -130,13 +142,16 @@ main {
 }
 
 .section-list > li {
-  margin: 15px;
+  margin: 4px;
   list-style: none;
+  padding-left: 16px;
+  font-size: 14px;
 }
 
 .section-link {
   text-decoration: none;
   transition: 0.15s linear;
+  font-size: 16px;
 }
 
 .section-link:hover .link-icon {
@@ -330,7 +345,7 @@ footer {
 .footer-year {
   width: 100px;
   text-align: center;
-  font-size: 37px;
+  font-size: 24px;
   line-height: 37px;
   font-weight: bold;
   color: black;
